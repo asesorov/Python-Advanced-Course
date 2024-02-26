@@ -1,0 +1,13 @@
+Passing single file:
+(base) asesorov@DESKTOP-NDM6PGU:~/repos/Python-Advanced-Course$ python hw1/task_3/wc.py hw1/task_3/artifacts/input_1.txt
+21 69 445 hw1/task_3/artifacts/input_1.txt
+
+Passing multiple files:
+(base) asesorov@DESKTOP-NDM6PGU:~/repos/Python-Advanced-Course$ python hw1/task_3/wc.py hw1/task_3/artifacts/input_1.txt hw1/task_3/artifacts/input_2.txt
+21 69 445 hw1/task_3/artifacts/input_1.txt
+20 40 150 hw1/task_3/artifacts/input_2.txt
+41 109 595 total
+
+Passing stdin (using operator <):
+(base) asesorov@DESKTOP-NDM6PGU:~/repos/Python-Advanced-Course$ python hw1/task_3/wc.py < hw1/task_3/artifacts/input_1.txt
+21 69 445

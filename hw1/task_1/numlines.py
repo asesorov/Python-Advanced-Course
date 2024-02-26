@@ -7,11 +7,12 @@ def process_lines(input_stream, line_number=1):
         yield f"{line_number}\t{line}"
         line_number += 1
 
+
 def cli_argument_parser():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='Numerate strings')
 
     parser.add_argument('file',
-                        help='Path to RKNN_benchmark',
+                        help='Path to input file',
                         nargs='?',
                         type=argparse.FileType('r'),
                         default=sys.stdin)

@@ -1,0 +1,57 @@
+Passing single file:
+(base) asesorov@DESKTOP-NDM6PGU:~/repos/Python-Advanced-Course$ python hw1/task_2/tail.py hw1/task_2/artifacts/input_1.txt
+Duis aute
+irure dolor
+in reprehenderit in
+voluptate velit esse
+cillum dolore eu
+fugiat nulla pariatur.
+Excepteur sint occaecat
+cupidatat non proident, sunt in
+culpa qui officia deserunt
+mollit anim id est laborum.
+
+Passing multiple files:
+(base) asesorov@DESKTOP-NDM6PGU:~/repos/Python-Advanced-Course$ python hw1/task_2/tail.py hw1/task_2/artifacts/input_1.txt hw1/task_2/artifacts/input_2.txt
+==> hw1/task_2/artifacts/input_1.txt <==
+Duis aute
+irure dolor
+in reprehenderit in
+voluptate velit esse
+cillum dolore eu
+fugiat nulla pariatur.
+Excepteur sint occaecat
+cupidatat non proident, sunt in
+culpa qui officia deserunt
+mollit anim id est laborum.
+==> hw1/task_2/artifacts/input_2.txt <==
+line 11
+line 12
+line 13
+line 14
+line 15
+line 16
+line 17
+line 18
+line 19
+line 20
+
+Passing stdin (using operator <):
+(base) asesorov@DESKTOP-NDM6PGU:~/repos/Python-Advanced-Course$ python hw1/task_2/tail.py <hw1/task_2/artifacts/input_2.txt
+line 4
+line 5
+line 6
+line 7
+line 8
+line 9
+line 10
+line 11
+line 12
+line 13
+line 14
+line 15
+line 16
+line 17
+line 18
+line 19
+line 20
