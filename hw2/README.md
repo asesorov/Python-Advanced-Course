@@ -26,7 +26,7 @@
 После этого, используя вашу библиотеку, сгенерировать по полученному латеху PDF с таблицей из задачи 2.1 и картинкой. PDF -  первый артефакт задачи, ссылка на репозиторий в PyPI/Anaconda - второй.
 Генерировать pdf можно при помощи pdflatex.
 
-Ссылка на PyPI: https://test.pypi.org/simple/
+Ссылка на PyPI: https://test.pypi.org/project/latex-generator-sesorov/1.0.0/
 
 Установка: `pip install -i https://test.pypi.org/simple/ latex-generator-sesorov==1.0.0`
 
