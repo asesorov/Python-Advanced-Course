@@ -1,0 +1,3 @@
+Enter a message to send to Process A: Enter a message to send to Process A: 10:25:35 - Encoded message from Process B: hello
+Enter a message to send to Process A: 10:25:42 - Encoded message from Process B: this is caps
+Enter a message to send to Process A: 
