@@ -38,7 +38,7 @@ def run_fibonacci_multiprocessing(n):
         return pool.map(fibonacci, [n]*10)
 
 if __name__ == "__main__":
-    n = 25
+    n = 30
 
     sync_results = run_fibonacci_sync(n)
     threading_results = run_fibonacci_threading(n)

@@ -29,7 +29,7 @@ def worker(f, start, end, step):
 
 
 @measure_time
-def integrate(f, a, b, *, n_jobs=1, n_iter=1000, executor_type='thread'):
+def integrate(f, a, b, n_jobs=1, n_iter=1000, executor_type='thread'):
     step = (b - a) / n_iter
     chunk_size = n_iter // n_jobs
     futures = []
